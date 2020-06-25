@@ -50,7 +50,7 @@
       </div><!-- /.container-fluid -->
 </div>
 
-//Modal Tambah Data
+{{--  Modal Tambah Data  --}}
 <div class="modal fade" id="tambahAdmin" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="tambahAdminLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">

@@ -54,8 +54,7 @@
             <!-- /.card -->
       </div><!-- /.container-fluid -->
 </div>
-
-//Modal Untuk Menambah Data Doctor
+{{--  //Modal Untuk Menambah Data Doctor  --}}
 <div class="modal fade" id="tambahDoctor" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="tambahDoctorLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
