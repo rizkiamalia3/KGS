@@ -50,14 +50,14 @@
 
 
     <!-- SCRIPTS -->
-    <script src="/template/js/jquery.js"></script>
-    <script src="/template/js/bootstrap.min.js"></script>
-    <script src="/template/js/jquery.sticky.js"></script>
-    <script src="/template/js/jquery.stellar.min.js"></script>
-    <script src="/template/js/wow.min.js"></script>
-    <script src="/template/js/smoothscroll.js"></script>
-    <script src="/template/js/owl.carousel.min.js"></script>
-    <script src="/template/js/custom.js"></script>
+    <script src="{{ URL::asset('/template/js/jquery.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/bootstrap.min.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/jquery.sticky.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/jquery.stellar.min.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/wow.min.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/smoothscroll.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/owl.carousel.min.js')}}"></script>
+    <script src="{{ URL::asset('/template/js/custom.js')}}"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     @include('sweet::alert')
     <script>
