@@ -64,4 +64,7 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+</div>
 @include('admin.app.footer')
