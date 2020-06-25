@@ -20,7 +20,7 @@
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js'"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 @include('sweet::alert')
 <!-- Bootstrap 4 -->
 <script src="{{ URL::asset('/adtemp/plugins/bootstrap/js/bootstrap.bundle.min.js' ) }}"></script>
@@ -50,13 +50,13 @@
             "<'row'<'col-sm-4 pull-left'B><'col-sm-3'l><'col-sm-5 pull-right'f>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'row'<'col-sm-5'i><'col-sm-7'p>>",
-            buttons: [
+            {{--  buttons: [
                 {
                     extend: 'pdf',
                     text: 'PDF',
                     "className" : 'btn btn-info'
                 },
-            ]
+            ]  --}}
         } );
     } );
 </script>
