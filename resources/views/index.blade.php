@@ -11,7 +11,7 @@
                     </div>
                     @else
                     <div class="item {{ $loop->first ? 'active' : '' }}">
-                        <img src="/images/sliders/{{ $slider->image }}" alt="{{ $slider->image_id }}">
+                        <img src="{{ URL::asset('/images/sliders/{{ $slider->image }}')" alt="{{ $slider->image_id }}">
                     </div>
                     @endif
                     @endforeach
