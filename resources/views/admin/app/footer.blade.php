@@ -13,24 +13,24 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="/adtemp/plugins/jquery/jquery.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/jquery/jquery.min.js' ) }}"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="/adtemp/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/jquery-ui/jquery-ui.min.js' ) }}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js'"></script>
 @include('sweet::alert')
 <!-- Bootstrap 4 -->
-<script src="/adtemp/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/bootstrap/js/bootstrap.bundle.min.js' ) }}"></script>
 <!-- ChartJS -->
-<script src="/adtemp/plugins/chart.js/Chart.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/chart.js' ) }}/Chart.min.js' ) }}"></script>
 <!-- Sparkline -->
-<script src="/adtemp/plugins/sparklines/sparkline.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/sparklines/sparkline.js' ) }}"></script>
 <!-- JQVMap -->
-<script src="/adtemp/plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="/adtemp/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/jqvmap/jquery.vmap.min.js' ) }}"></script>
+<script src="{{ URL::asset('/adtemp/plugins/jqvmap/maps/jquery.vmap.usa.js' ) }}"></script>
 <!-- Data Table -->
 <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -61,16 +61,16 @@
     } );
 </script>
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="/adtemp/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js' ) }}"></script>
 <!-- Summernote -->
-<script src="/adtemp/plugins/summernote/summernote-bs4.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/summernote/summernote-bs4.min.js' ) }}"></script>
 <!-- overlayScrollbars -->
-<script src="/adtemp/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="{{ URL::asset('/adtemp/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js' ) }}"></script>
 <!-- AdminLTE App -->
-<script src="/adtemp/dist/js/adminlte.js"></script>
+<script src="{{ URL::asset('/adtemp/dist/js/adminlte.js' ) }}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="/adtemp/dist/js/pages/dashboard.js"></script>
+<script src="{{ URL::asset('/adtemp/dist/js/pages/dashboard.js' ) }}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="/adtemp/dist/js/demo.js"></script>
+<script src="{{ URL::asset('/adtemp/dist/js/demo.js' ) }}"></script>
 </body>
 </html>
