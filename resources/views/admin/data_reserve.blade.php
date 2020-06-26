@@ -11,7 +11,7 @@
             <div class="card card-dark">
               <div class="card-header">
                 <h3 class="card-title">Data Reservasi</h3><br>
-              <!-- form start -->
+                <div class="card-body">
                 <div class="table-responsive text-nowrap">
                     <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                         <thead>
@@ -79,6 +79,7 @@
                         </tbody>
                     </table>
                 </div>
+            </div>
             </div>
         </div>
         </div>

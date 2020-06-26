@@ -14,7 +14,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
+              <div class="card-body">
                 <div class="table-responsive ">
                 <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                 <thead>
@@ -45,7 +45,7 @@
                 </tr></tbody>
               </table>
               </div>
-              </form>
+            </div>
             </div>
             </div>
             </div>

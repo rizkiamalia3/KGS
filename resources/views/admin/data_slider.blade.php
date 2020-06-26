@@ -17,7 +17,7 @@
                     <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#tambahSlider">Tambah Slider</button>
                   </div>
                   <!-- /.card-header -->
-                  <!-- form start -->
+                  <div class="card-body">
                   <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                     <thead>
                       <tr>
@@ -42,6 +42,7 @@
                     </tr></tbody>
                   </table>
                 </div>
+              </div>
                 </div>
                 </div>
                 <!-- /.card -->
