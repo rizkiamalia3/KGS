@@ -57,6 +57,7 @@ class LoginController extends Controller
         }
 
         // kalo gagal ntar balik lagi
+        alert()->error('Maaf Email / Password Anda Salah ', 'Error');
         return redirect()->back()->withInput($request->only('email', 'remember'))->with('gagal','Maaf Email / Password Anda Salah');
 
     }
