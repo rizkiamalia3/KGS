@@ -19,8 +19,8 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ URL::asset('/adtemp/dist/css/adminlte.min.css')}}">
   <!-- DataTables -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css')}}">
-  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css')}}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
   <!-- Daterange picker -->
