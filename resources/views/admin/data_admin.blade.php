@@ -15,15 +15,15 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form role="form">
-                <div class="table-responsive ">
-                <table id="myTable" class="table table-striped text-nowrap">
+              <div class="card-body">
+                <div class="table-responsive">
+                <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                 <thead>
                   <tr>
                     <th>ID</th>
                     <th>Nama Admin</th>
                     <th>Email</th>
-                    <th></th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -32,7 +32,7 @@
                     <td>{{ $admin->admin_id }}</td>
                     <td>{{ $admin->name }}</td>
                     <td>{{ $admin->email }}</td>
-                    <td class="text-right py-0 align-middle">
+                    <td>
                       <div class="btn-group btn-group-sm">
                         <a href="{{ url('admin/data_admin/'.$admin->admin_id.'/delete') }}" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                       </div>
@@ -42,7 +42,7 @@
                 </tr></tbody>
               </table>
             </div>
-              </form>
+          </div>
             </div>
             </div>
             </div>

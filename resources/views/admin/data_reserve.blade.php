@@ -13,7 +13,7 @@
                 <h3 class="card-title">Data Reservasi</h3><br>
               <!-- form start -->
                 <div class="table-responsive text-nowrap">
-                    <table id="myTable"class="table table-striped text-nowrap">
+                    <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                         <thead>
                             <tr>
                                 <th>ID Reservasi</th>

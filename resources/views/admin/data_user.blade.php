@@ -16,14 +16,14 @@
               <!-- form start -->
               <form role="form">
                 <div class="table-responsive ">
-                <table id="myTable" class="table table-striped text-nowrap">
+                <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                 <thead>
                   <tr>
                     <th>No</th>
                     <th>ID User</th>
                     <th>Nama User</th>
                     <th>Email</th>
-                    <th></th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -34,7 +34,7 @@
                     <td>{{ $user->user_id }}</td>
                     <td>{{ $user->name }}</td>
                     <td>{{ $user->email }}</td>
-                    <td class="text-right py-0 align-middle">
+                    <td>
                       <div class="btn-group btn-group-sm">
                         <a href="{{ route('admin.user_profile',$user) }}" class="btn btn-info"><i class="fas fa-eye"></i></a>
                         <a href="{{ url('admin/data_user/'.$user->user_id.'/delete') }}" class="btn btn-danger"><i class="fas fa-trash"></i></a>

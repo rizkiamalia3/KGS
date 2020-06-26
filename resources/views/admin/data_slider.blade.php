@@ -18,13 +18,12 @@
                   </div>
                   <!-- /.card-header -->
                   <!-- form start -->
-                  <form role="form">
-                  <table id="myTable" class="table table-striped text-nowrap">
+                  <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                     <thead>
                       <tr>
                         <th>No</th>
                         <th>Images</th>
-                        <th></th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -33,7 +32,7 @@
                       <tr>
                         <td>{{ $no++}}</td>
                         <td><img src="/images/sliders/{{ $slider->image }} "style=" width:100px; height:50px"</td>
-                        <td class="text-right py-0 align-middle">
+                        <td>
                           <div class="btn-group btn-group-sm">
                             <a href="{{ url('admin/data_slider/delete/'.$slider->image_id) }}" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                           </div>
@@ -42,7 +41,6 @@
                       @endforeach
                     </tr></tbody>
                   </table>
-                  </form>
                 </div>
                 </div>
                 </div>

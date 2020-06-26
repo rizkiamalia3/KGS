@@ -18,14 +18,14 @@
               <!-- form start -->
               <form role="form">
                 <div class="table-responsive">
-                <table id="myTable" class="table table-striped text-nowrap">
+                <table id="myTable" class="table table-striped table-bordered text-center text-nowrap" style="width:100%;">
                 <thead>
                   <tr>
                     <th>No</th>
                     <th>Nama Dokter</th>
                     <th>Email</th>
                     <th>Schedule</th>
-                    <th></th>
+                    <th>Action</th>
                   </tr>
                 </thead>
                 <tbody>
