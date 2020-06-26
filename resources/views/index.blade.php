@@ -1,5 +1,6 @@
 @include('layouts.app_dash')
 <!-- HOME -->
+<div>
 <section id="home" class="slider" data-stellar-background-ratio="0.5">
             <div class="row">
                 <div class="owl-carousel owl-theme ">
@@ -18,4 +19,5 @@
             </div>
         </div>
 </section>
+</div>
 @include('layouts.footer')
