@@ -7,7 +7,7 @@
             <div class="about-info">
                 <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Doctors</h2>
             </div>
-        </div>
+        </div><hr>
 
         <div class="clearfix"></div>
         @foreach($doctor as $doctors)
