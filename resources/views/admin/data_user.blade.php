@@ -15,8 +15,8 @@
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form">
-                <div class="table-responsive text-nowrap">
-                <table id="myTable" class="table table-striped">
+                <div class="table-responsive ">
+                <table id="myTable" class="table table-striped text-nowrap">
                 <thead>
                   <tr>
                     <th>No</th>

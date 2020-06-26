@@ -19,7 +19,7 @@
                   <!-- /.card-header -->
                   <!-- form start -->
                   <form role="form">
-                  <table id="myTable" class="table table-striped">
+                  <table id="myTable" class="table table-striped text-nowrap">
                     <thead>
                       <tr>
                         <th>No</th>
