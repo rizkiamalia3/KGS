@@ -1,3 +1,4 @@
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,29 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="{{ URL::asset('/template/images/logo.png') }}"/>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="/adtemp/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Ionicons -->
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- Tempusdominus Bbootstrap 4 -->
-  <link rel="stylesheet" href="/adtemp/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="/adtemp/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="/adtemp/plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/jqvmap/jqvmap.min.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/adtemp/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/dist/css/adminlte.min.css')}}">
   <!-- DataTables -->
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css')}}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css')}}">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="/adtemp/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="/adtemp/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/daterangepicker/daterangepicker.css')}}">
   <!-- summernote -->
-  <link rel="stylesheet" href="/adtemp/plugins/summernote/summernote-bs4.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/plugins/summernote/summernote-bs4.css')}}">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="/adtemp/dist/css/button.css">
+  <link rel="stylesheet" href="{{ URL::asset('/adtemp/dist/css/button.css')}}">
 </head>
 <body class="hold-transition sidebar-mini">
     <!-- Site wrapper -->
