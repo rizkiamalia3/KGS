@@ -51,7 +51,7 @@
       <!-- /.navbar -->
 
       <!-- Main Sidebar Container -->
-      <aside class="main-sidebar elevation-4 sidebar-secondary-warning">
+      <aside class="main-sidebar elevation-4 sidebar-light-warning">
         <!-- Brand Logo -->
         <a href="{{ route('admin.dashboard') }}"class="brand-link navbar-secondary ">
           <img src="{{ URL::asset('template/images/favicon.png') }} "
@@ -71,6 +71,13 @@
                    with font-awesome or any other icon font library -->
               <li class="nav-header">UPDATE PANEL</li>
               <li class="nav-item">
+                <a href="{{route('admin.dashboard')}}" class="nav-link">
+                    <i class="nav-icon fas fa-plus"></i>
+                    <p>
+                      Dashboard
+                    </p>
+                  </a>
+              </li>
               <li class="nav-item has-treeview active menu-open">
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-database"></i>
