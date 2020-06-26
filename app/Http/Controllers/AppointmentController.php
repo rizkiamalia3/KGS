@@ -9,7 +9,6 @@ use App\AppointmentDetail;
 use App\AntrianId;
 use App\AntrianNumber;
 use Auth;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class AppointmentController extends Controller
@@ -47,8 +46,8 @@ class AppointmentController extends Controller
     public function reserve(Request $request)
     {
         //nambah data antrian id
-
         $antrianId = AntrianId::where("tgl_antri",$request->tgl_antri)->first();
+        //cek data antrian
         if(empty($antrianId)){
            $antrianId = new AntrianId;
            $antrianId->tgl_antri = $request->tgl_antri;
@@ -59,6 +58,7 @@ class AppointmentController extends Controller
            $antrianId->tgl_antri = $request->tgl_antri;
            $antrianId->save();
         }
+        //cek no antri pada tanggal yang direservasi
         $antrianNumber = AntrianNumber::where('id_antri', $antrianId->id_antri)->first();
         $antrianTgl = AntrianId::where('tgl_antri', $antrianId->tgl_antri)->get();
         $def = 0;
@@ -70,7 +70,7 @@ class AppointmentController extends Controller
         foreach($Ai as $A){
             $nol = $nol+1;
         }
-
+        // cek data 
         $antrianNumber = new AntrianNumber;
         if(empty($antrianId)){
             $antrianNumber->no_antri = 1;
@@ -115,7 +115,7 @@ class AppointmentController extends Controller
 
     public function confirm()
     {
-
+        //perintah konfirmasi kehadiran
         $appointment = Appointment::where('user_id', Auth::user()->user_id)->get();
         foreach($appointment as $app){
             $appointment_details = AppointmentDetail::where('appointment_id',$app->appointment_id)->where('status',0)->get();
