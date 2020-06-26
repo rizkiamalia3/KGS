@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-12">
             <br>
-            <a href="{{ url('user/history') }}" class="btn btn-pink"><i class="fa fa-arrow-left"></i> Back</a>
+            <a href="{{ url('user/history') }}" class="btn btn-dark"><i class="fa fa-arrow-left"></i> Back</a>
             <hr>
         </div>
         <form class="form" action="{{ url('user/history/$id') }}" method="POST">

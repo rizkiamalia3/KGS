@@ -27,7 +27,7 @@
                                     @endif
                                 </td>
                                 <td>
-                                    <a href="{{ url('user/history') }}/{{ $appointment_detail->id }}" class="btn btn-pink"><i class="fa fa-info"></i> Detail</a>
+                                    <a href="{{ url('user/history') }}/{{ $appointment_detail->id }}" class="btn btn-blue"><i class="fa fa-info"></i> Detail</a>
                                 </td>
                             </tr>
                             @endforeach

@@ -3,7 +3,7 @@
     <br/>
     <div class="row">
         <div class="col-md-12 mt-3 mb-3">
-            <a href="{{ url('/') }}" class="btn btn-dark"><i class="fa fa-arrow-left"></i> Kembali</a>
+            <a href="{{ url('/') }}" class="btn btn-dark"><i class="fa fa-arrow-left"></i> Back</a>
         </div>
         <div class="col-md-12">
             <div class="card">
