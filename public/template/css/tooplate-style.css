@@ -423,7 +423,7 @@ http://www.tooplate.com/view/2098-health
     width: 100%;
   }
 
-  .slider .owl-dots {
+  /* .slider .owl-dots {
       position: absolute;
       top: 575px;
       width: 100%;
@@ -445,7 +445,7 @@ http://www.tooplate.com/view/2098-health
   .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #ffffff;
     border-color: transparent;
-  }
+  } */
 
   .slider .caption {
     display: flex;
