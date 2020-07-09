@@ -15,8 +15,8 @@
                     @if($app->status == 1)
                     <h5>
                         Diharapkan Untuk Mengkonfirmasi Reservasi Sebagai Informasi Kehadiran<br/>
-                        Batas Waktu Konfirmasi <strong>H-1</strong> Dari Tanggal Reservasi<br/>
-                        Jika Melewati Batas Waktu Reservasi Maka Reservasi Akan Terhapus<hr>
+                        Batas Waktu Konfirmasi <strong>30 menit</strong> Sebelum Klinik Buka<br/>
+                        Jika Melewati Batas Waktu Maka Reservasi Akan Terhapus<hr>
                     </h5>
                     @endif
                     @endforeach
