@@ -16,7 +16,7 @@
 
                             <div class="col-xl-6">
                                 <label for="tgl_antri">Select Date</label>
-                                <input id="tgl_antri" type="date" name="tgl_antri" value="" class="form-control">
+                                <input id="tgl_antri" type="date" name="tgl_antri" min="2020-07-09" class="form-control">
                             </div>
 
                             <div class="col-md-3 col-sm-3">
