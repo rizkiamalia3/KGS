@@ -58,10 +58,7 @@ class AppointmentController extends Controller
            $antrianId->tgl_antri = $request->tgl_antri;
            $antrianId->save();
         }
-
-        $tgl = date('Y-m-d');
-        $tgl = date('Y-m-d', strtotime('-1d', strtotime($tgl)));
-
+        
         //cek no antri pada tanggal yang direservasi
         $antrianNumber = AntrianNumber::where('id_antri', $antrianId->id_antri)->first();
         $antrianTgl = AntrianId::where('tgl_antri', $antrianId->tgl_antri)->get();
